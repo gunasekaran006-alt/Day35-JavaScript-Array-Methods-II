@@ -3,7 +3,7 @@ function user(name, role, primarySkill, ...skills){
     console.log(name + " " + role + " " + primarySkill + " " + skills);
     console.log(skills);
 }
-user('Narasimhan', 'Mentor', 'Web technology', 'Prompt Eng', 'Web Design');
+user('Gunasekaran', 'Aspiring', 'Web technology', 'Prompt Eng', 'Web Design');
 
 function generateBill(name, mobile, ...products){
     console.log(name);
@@ -11,7 +11,7 @@ function generateBill(name, mobile, ...products){
     console.log(products);
 
 }
-generateBill('Narasimhan', '1234', 'milk', 'bread', 'chocolate', 'fruits');
+generateBill('Gunasekaran', '1234', 'milk', 'bread', 'chocolate', 'fruits');
 generateBill('Someone', '123456', 'milk', 'groceries');
 
 // Spread operator
